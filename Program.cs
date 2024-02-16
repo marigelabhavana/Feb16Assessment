@@ -10,11 +10,18 @@ namespace Feb16Assessment
         {
             SortedList<int, Product> products = new SortedList<int, Product>();
 
-            products.Add(1, new Product("Dewy Skin Primer      ", 10.99, "DewyDaze   ", new DateTime(2023, 02, 14), new DateTime(2028, 02, 16)));
-            products.Add(2, new Product("Radiant Glow Serum    ", 20.99, "GlamourGlow", new DateTime(2022, 10, 23), new DateTime(2027, 03, 19)));
-            products.Add(3, new Product("Hydrating Facial Mist ", 30.99, "PureGlow   ", new DateTime(2018, 08, 27), new DateTime(2023, 04, 26)));
-            products.Add(4, new Product("Exfoliating Body Scrub", 40.99, "AuraLux    ", new DateTime(2016, 05, 12), new DateTime(2024, 05, 04)));
-            products.Add(5, new Product("Nourishing Hair Mask  ", 50.99, "SilkBeauty ", new DateTime(2020, 11, 08), new DateTime(2025, 06, 03)));
+            products.Add(01, new Product("Dewy Skin Primer      ", 10.99, "DewyDaze   ", new DateTime(2023, 02, 14), new DateTime(2028, 02, 16)));
+            products.Add(02, new Product("Radiant Glow Serum    ", 20.99, "GlamourGlow", new DateTime(2022, 10, 23), new DateTime(2027, 03, 19)));
+            products.Add(03, new Product("Hydrating Facial Mist ", 30.99, "PureGlow   ", new DateTime(2018, 08, 27), new DateTime(2023, 04, 26)));
+            products.Add(04, new Product("Exfoliating Body Scrub", 40.99, "AuraLux    ", new DateTime(2016, 05, 12), new DateTime(2024, 05, 04)));
+            products.Add(05, new Product("Nourishing Hair Mask  ", 50.99, "SilkBeauty ", new DateTime(2020, 11, 08), new DateTime(2025, 06, 03)));
+            products.Add(06, new Product("Dewy Skin Primer      ", 10.99, "DewyDaze   ", new DateTime(2023, 02, 14), new DateTime(2028, 02, 16)));
+            products.Add(07, new Product("Radiant Glow Serum    ", 20.99, "GlamourGlow", new DateTime(2022, 10, 23), new DateTime(2027, 03, 19)));
+            products.Add(08, new Product("Hydrating Facial Mist ", 30.99, "PureGlow   ", new DateTime(2018, 08, 27), new DateTime(2023, 04, 26)));
+            products.Add(09, new Product("Exfoliating Body Scrub", 40.99, "AuraLux    ", new DateTime(2016, 05, 12), new DateTime(2024, 05, 04)));
+            products.Add(10, new Product("Nourishing Hair Mask  ", 50.99, "SilkBeauty ", new DateTime(2020, 11, 08), new DateTime(2025, 06, 03)));
+
+
 
             Console.WriteLine("Index Key |          PName         | Price |    Brand    |    MfDate  |   ExpDate  |");
             Console.WriteLine("------------------------------------------------------------------------------------");
